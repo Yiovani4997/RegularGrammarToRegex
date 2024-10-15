@@ -10,7 +10,7 @@ typedef struct Node
     struct Node *next;
 }Node;
 
-Node *createNode(const char *line);
+Node* createNode(const char *line);
 void appendNode(Node **head, const char *line);
 void freeLinkedList(Node *head);
 Node* createLinkedList(FILE *file);
